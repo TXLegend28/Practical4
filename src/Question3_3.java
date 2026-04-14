@@ -1,4 +1,19 @@
-package PACKAGE_NAME;
-
 public class Question3_3 {
+    public static void main(String[] args) {
+        Question3_1[] salesPeople = new Question3_1[10];
+
+        int id = 111;
+        double sales = 25000;
+
+        for (int i = 0; i < salesPeople.length; i++) {
+            salesPeople[i] = new Question3_1(id, sales);
+            id++;
+            sales += 5000;
+        }
+
+        System.out.println("Updated Question3_1 Objects:");
+        for (int i = 0; i < salesPeople.length; i++) {
+            salesPeople[i].display();
+        }
+    }
 }
