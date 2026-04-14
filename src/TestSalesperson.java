@@ -1,9 +1,9 @@
-public class Question3_2 {
+public class TestSalesperson {
     public static void main(String[] args) {
-        Question3_1[] salesPeople = new Question3_1[10];
+        Salesperson[] salesPeople = new Salesperson[10];
 
         for (int i = 0; i < salesPeople.length; i++) {
-            salesPeople[i] = new Question3_1(9999, 0.0);
+            salesPeople[i] = new Salesperson(9999, 0.0);
         }
 
         System.out.println("Question3_1 Objects:");

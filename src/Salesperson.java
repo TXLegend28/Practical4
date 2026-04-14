@@ -1,8 +1,8 @@
-public class Question3_1 {
+public class Salesperson {
     private int idNumber;
     private double annualSales;
 
-    public Question3_1(int idNumber, double annualSales) {
+    public Salesperson(int idNumber, double annualSales) {
         this.idNumber = idNumber;
         this.annualSales = annualSales;
     }
