@@ -6,7 +6,7 @@ public class TestSalesperson {
             salesPeople[i] = new Salesperson(9999, 0.0);
         }
 
-        System.out.println("Question3_1 Objects:");
+        System.out.println("Salesperson Objects:");
         for (int i = 0; i < salesPeople.length; i++) {
             salesPeople[i].display();
         }

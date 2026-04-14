@@ -11,7 +11,7 @@ public class TestSalesperson2 {
             sales += 5000;
         }
 
-        System.out.println("Updated Question3_1 Objects:");
+        System.out.println("Updated Salesperson Objects:");
         for (int i = 0; i < salesPeople.length; i++) {
             salesPeople[i].display();
         }
